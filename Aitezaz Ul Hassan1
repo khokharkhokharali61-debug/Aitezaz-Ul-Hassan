@@ -1,0 +1,21 @@
+Aict
+# Student Information
+first_name = "Aitezaz"
+roll_last_digits = "35"
+
+# User input
+user_input = input("Enter your first name or roll number last two digits: ")
+
+# Condition check
+if user_input.lower() == first_name.lower() or user_input == roll_last_digits:
+    print("✅ Code Successfully Executed!")
+    print("Name: Aitezaz ul Hassan")
+    print("Roll No: BSAI023R25P35")
+    print("City: Dajal")
+    print("University: USP Multan")
+    print("Department: Artificial Intelligence (AI)")
+    print("Subject: AICT")
+    print("Instructor: Maam Maryem Ismail")
+    print("TikTok ID: @kashankhan")
+else:
+    print("❌ Invalid input! Please try again.")
